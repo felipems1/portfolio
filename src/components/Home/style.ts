@@ -6,6 +6,18 @@ export const Container = styled.div`
   height: 100vh;
   display: flex;
   align-items: center;
+  animation: appear 2s alternate;
+
+  @keyframes appear {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
 `;
 
 export const Info = styled.div`
