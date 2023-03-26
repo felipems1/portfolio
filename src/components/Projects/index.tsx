@@ -58,7 +58,7 @@ const Projects = () => {
         />
         <Project
           image={Projeto5}
-          title="Formulário Dev"
+          title="Formulário"
           description="Tecnologias: ReactJS, TypeScript, Styled-Components, Context API e Git."
           deploy="https://app-formulario.netlify.app"
           github="https://github.com/felipems1/react-form"

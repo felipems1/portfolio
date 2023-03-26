@@ -47,14 +47,13 @@ export const Button = styled.a`
   align-items: center;
   background-color: transparent;
   color: #fff;
-  border: 1px solid #00d2df;
+  border: 2px solid #00d2df;
   border-radius: 5px;
   padding: 5px 25px;
-  transition: all ease 0.8s;
+  transition: all ease 0.9s;
 
   &:hover {
-    transform: scale(1.1);
-    border: 1px solid #ff1cf7;
+    border: 2px solid #ff1cf7;
   }
 `;
 
