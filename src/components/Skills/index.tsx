@@ -1,5 +1,6 @@
 import { Tooltip } from "react-tooltip";
 import * as C from "./style";
+
 import react from "../../assets/react.png";
 import javascript from "../../assets/javascript.png";
 import typescript from "../../assets/typescript.png";
@@ -8,6 +9,8 @@ import css from "../../assets/css.png";
 import git from "../../assets/git.png";
 import styled from "../../assets/styled.png";
 import redux from "../../assets/redux.png";
+import next from "../../assets/next.png";
+import tailwind from "../../assets/tailwind.png";
 
 const Skills = () => {
   return (
@@ -56,6 +59,22 @@ const Skills = () => {
             <C.Logo src={react} alt="Logo React" />
           </C.Skill>
           <C.Skill
+            data-tooltip-id="next"
+            data-tooltip-content="Next JS"
+            data-tooltip-place="top"
+          >
+            <Tooltip id="next" />
+            <C.Logo src={next} alt="Logo NextJS" />
+          </C.Skill>
+          <C.Skill
+            data-tooltip-id="redux"
+            data-tooltip-content="Redux"
+            data-tooltip-place="top"
+          >
+            <Tooltip id="redux" />
+            <C.Logo src={redux} alt="Logo Redux" />
+          </C.Skill>
+          <C.Skill
             data-tooltip-id="git"
             data-tooltip-content="Git"
             data-tooltip-place="top"
@@ -72,12 +91,12 @@ const Skills = () => {
             <C.Logo src={styled} alt="Logo Styled" />
           </C.Skill>
           <C.Skill
-            data-tooltip-id="redux"
-            data-tooltip-content="Redux"
+            data-tooltip-id="tailwind"
+            data-tooltip-content="Tailwind CSS"
             data-tooltip-place="top"
           >
-            <Tooltip id="redux" />
-            <C.Logo src={redux} alt="Logo Redux" />
+            <Tooltip id="tailwind" />
+            <C.Logo src={tailwind} alt="Logo Tailwind" />
           </C.Skill>
         </C.MySkills>
       </C.Skills>

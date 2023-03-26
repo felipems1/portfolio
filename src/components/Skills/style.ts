@@ -6,7 +6,11 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+
+  @media (max-width: 428px) {
+    padding: 15px;
+  }
 `;
 
 export const Skills = styled.div`
@@ -22,9 +26,13 @@ export const Title = styled.h1`
 
 export const MySkills = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 25px;
   margin-top: 50px;
+
+  @media (max-width: 800px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
   @media (max-width: 428px) {
     display: flex;
