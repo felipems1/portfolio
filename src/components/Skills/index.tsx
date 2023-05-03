@@ -11,6 +11,8 @@ import styled from "../../assets/styled.png";
 import redux from "../../assets/redux.png";
 import next from "../../assets/next.png";
 import tailwind from "../../assets/tailwind.png";
+import figma from "../../assets/figma.png";
+import firebase from "../../assets/firebase.png";
 
 const Skills = () => {
   return (
@@ -97,6 +99,22 @@ const Skills = () => {
           >
             <Tooltip id="tailwind" />
             <C.Logo src={tailwind} alt="Logo Tailwind" />
+          </C.Skill>
+          <C.Skill
+            data-tooltip-id="firebase"
+            data-tooltip-content="Firebase"
+            data-tooltip-place="top"
+          >
+            <Tooltip id="firebase" />
+            <C.Logo src={firebase} alt="Logo Firebase" />
+          </C.Skill>
+          <C.Skill
+            data-tooltip-id="figma"
+            data-tooltip-content="Figma"
+            data-tooltip-place="top"
+          >
+            <Tooltip id="figma" />
+            <C.Logo src={figma} alt="Logo Figma" />
           </C.Skill>
         </C.MySkills>
       </C.Skills>
