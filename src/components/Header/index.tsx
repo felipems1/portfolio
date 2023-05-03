@@ -28,7 +28,7 @@ const Header = () => {
         </C.ButtonMobile>
         <C.Options menu={menu}>
           {navigationLinks.map((item, index) => (
-            <C.Option>
+            <C.Option key={index}>
               <C.Link onClick={handleMenu} href={item.path}>
                 {item.label}
               </C.Link>

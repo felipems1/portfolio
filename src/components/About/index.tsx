@@ -14,10 +14,11 @@ const About = () => {
           projetos, comecei minha jornada na programação em 2022, sou um
           apaixonado por tecnologia, educação, gosto sempre de estar em
           constante aprendizado evoluindo dia após dia. Atualmente estou
-          trabalhando com as tecnologias ReactJS, NextJS, JavaScript,
-          TypeScript, HTML, CSS, Redux, Context API, Git, Github, Axios,
-          Firebase, Styled-Components, Tailwind CSS, CSS Modules entre outras
-          tecnologias que uso para criar aplicações web de alto nível e valor.
+          trabalhando com as tecnologias HTML, CSS, JavaScript, TypeScript,
+          ReactJs, NextJs, Tailwind CSS, Styled-Components, Redux, Redux
+          Toolkit, Context API, Axios, React-Hook-Form, Zod, Firebase, Git,
+          Github e Figma entre outras tecnologias que uso para criar aplicações
+          web de alto nível e valor.
         </C.Description>
         <C.Social>
           <C.Contact>
