@@ -46,10 +46,12 @@ export const DescriptionCourse = styled.h4`
   color: #c4c4c4;
   font-size: 20px;
   margin-top: 20px;
+  text-align: center;
 `;
 
 export const ConclusionCourse = styled.span`
   color: #d9d9d9;
   font-size: 20px;
   margin-top: 20px;
+  text-align: center;
 `;
