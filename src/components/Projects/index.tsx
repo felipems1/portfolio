@@ -31,44 +31,44 @@ const Projects = () => {
         <Project
           image={Projeto1}
           title="Jordan Shoes"
-          description="Tecnologias: ReactJS, TypeScript, Styled-Components, Axios, Redux e Git."
+          description="Tecnologias: ReactJS, TypeScript, Styled-Components, Axios e Redux."
           deploy="https://app-jordan-shoes.netlify.app"
           github="https://github.com/felipems1/react-jordan-shoes"
         />
         <Project
           image={Projeto2}
-          title="Controle Financeiro"
-          description="Tecnologias: ReactJS, TypeScript, CSS, Firebase e Git."
-          deploy="https://controle-financeiro-app.netlify.app"
-          github="https://github.com/felipems1/react-controle-financeiro"
-        />
-        <Project
-          image={Projeto3}
-          title="HomeYou"
-          description="Tecnologias: ReactJS, TypeScript, Styled-Components e Git."
-          deploy="https://app-homeyou.netlify.app"
-          github="https://github.com/felipems1/react-homeyou"
-        />
-        <Project
-          image={Projeto4}
           title="Sistema de Chamados"
-          description="Tecnologias: ReactJS, JavaScript, CSS, Context API, Firebase e Git."
+          description="Tecnologias: ReactJS, JavaScript, CSS, Context API e Firebase"
           deploy="https://sist-chamados-app.netlify.app"
           github="https://github.com/felipems1/react-sistema-de-chamados"
         />
         <Project
+          image={Projeto3}
+          title="Next Flix"
+          description="Tecnologias: NextJS, TypeScript, Tailwind CSS e Axios"
+          deploy="https://next-flix-ten.vercel.app/"
+          github="https://github.com/felipems1/next-flix"
+        />
+        <Project
+          image={Projeto4}
+          title="Controle Financeiro"
+          description="Tecnologias: ReactJS, TypeScript, CSS e Firebase"
+          deploy="https://controle-financeiro-app.netlify.app"
+          github="https://github.com/felipems1/react-controle-financeiro"
+        />
+        <Project
           image={Projeto5}
           title="Formulário"
-          description="Tecnologias: ReactJS, TypeScript, Styled-Components, Context API e Git."
+          description="Tecnologias: ReactJS, TypeScript, Styled-Components e Context API"
           deploy="https://app-formulario.netlify.app"
           github="https://github.com/felipems1/react-form"
         />
         <Project
           image={Projeto6}
-          title="Prime Flix"
-          description="Tecnologias: ReactJS, TypeScript, Styled-Components, Axios e Git."
-          deploy="https://app-primeflix.netlify.app"
-          github="https://github.com/felipems1/react-prime-flix"
+          title="HomeYou"
+          description="Tecnologias: ReactJS, TypeScript e Styled-Components"
+          deploy="https://app-homeyou.netlify.app"
+          github="https://github.com/felipems1/react-homeyou"
         />
       </C.ProjectsArea>
       <C.SlideButtons>
