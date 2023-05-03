@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { navigationLinks } from "../../utils/links";
 import * as C from "./style";
 import { CgMenu } from "react-icons/cg";
 import { AiOutlineClose } from "react-icons/ai";
@@ -26,31 +27,13 @@ const Header = () => {
           )}
         </C.ButtonMobile>
         <C.Options menu={menu}>
-          <C.Option>
-            <C.Link onClick={handleMenu} href="#home">
-              Início
-            </C.Link>
-          </C.Option>
-          <C.Option>
-            <C.Link onClick={handleMenu} href="#about">
-              Sobre
-            </C.Link>
-          </C.Option>
-          <C.Option>
-            <C.Link onClick={handleMenu} href="#skills">
-              Habilidades
-            </C.Link>
-          </C.Option>
-          <C.Option>
-            <C.Link onClick={handleMenu} href="#projects">
-              Projetos
-            </C.Link>
-          </C.Option>
-          <C.Option>
-            <C.Link onClick={handleMenu} href="#courses">
-              Cursos
-            </C.Link>
-          </C.Option>
+          {navigationLinks.map((item, index) => (
+            <C.Option>
+              <C.Link onClick={handleMenu} href={item.path}>
+                {item.label}
+              </C.Link>
+            </C.Option>
+          ))}
         </C.Options>
       </C.Header>
     </C.Container>
