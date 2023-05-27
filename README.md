@@ -1,30 +1,36 @@
 <h1 align="center"> Portfólio </h1>
 
-<p align="center">
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>
-</p>
+<div align="center">
+  <img src="./public/preview.png" alt="demonstração do projeto" >
+</div>
 
-## 🔖 Layout
-
-<p align="center">
-  <video src="https://user-images.githubusercontent.com/111329429/225517949-6cdead9b-9b25-4cb8-b95f-3cdf6dea7e5d.mp4">
-</p>
-
-## 🚀 Tecnologias
-
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
-- ReactJS
-- TypeScript
-- Styled-Components
-- Git e Github
-
-## 💻 Projeto
-
-Você pode visualizar o projeto através [DESSE LINK](https://portfolio-felipems1.netlify.app).
+<p align="center"><a href="https://portfolio-felipems1.netlify.app/">Ver Projeto</a></p>
 
 ---
 
-[Link do meu perfil no Linkedin.](https://www.linkedin.com/in/felipe-moises-4a1b58248/)
+<h2>Tecnologias:</h2>
+
+- ReactJs
+- TypeScript
+- Styled-Components
+
+---
+
+<h2>Rodando o projeto:</h2>
+
+Você precisa ter o [Node](https://nodejs.org/en/), o [Git](https://git-scm.com/) e algum gerenciador de pacotes([NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm/) | [Yarn](https://classic.yarnpkg.com/lang/en/docs/install)) instalados em sua máquina.
+
+```bash
+1. Clone o repositório:
+$ git clone https://github.com/felipems1/react-portfolio
+
+2. Acesse a pasta e instale as dependências via terminal:
+$ yarn install / npm install
+
+3. Inicie a aplicação em modo de desenvolvimento:
+$ yarn dev / npm run dev
+
+4. O servidor será aberto em http://localhost:5173
+```
+
+<p align="center">Projeto feito com ❤️ por <a href="https://www.linkedin.com/in/felipems1/">Felipe Moises</a></p>
