@@ -23,11 +23,11 @@ export const Project = ({
       <C.TitleProject>{title}</C.TitleProject>
       <C.DescriptionProject>{description}</C.DescriptionProject>
       <C.ButtonsArea>
-        <C.Button href={deploy}>
+        <C.Button href={deploy} target="_blank">
           <C.Logo src={Link} alt="Logo Link" />
           Visualizar
         </C.Button>
-        <C.Button href={github}>
+        <C.Button href={github} target="_blank">
           <C.Logo src={Github} alt="Logo Github" />
           Github
         </C.Button>
