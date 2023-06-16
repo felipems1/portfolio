@@ -1,12 +1,14 @@
-import Header from "./components/Header";
-import Home from "./components/Home";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Courses from "./components/Courses";
-import Training from "./components/Training";
+import { Header } from './components/Header'
+import { Home } from './components/Home'
+import { About } from './components/About'
+import { Skills } from './components/Skills'
+import { Projects } from './components/Projects'
+import { Courses } from './components/Courses'
+import { AcademicEducation } from './components/AcademicEducation'
+import { GlobalStyle } from './styles/global'
+import 'react-tooltip/dist/react-tooltip.css'
 
-function App() {
+export function App() {
   return (
     <>
       <Header />
@@ -14,10 +16,9 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Training />
+      <AcademicEducation />
       <Courses />
+      <GlobalStyle />
     </>
-  );
+  )
 }
-
-export default App;

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100%;
@@ -9,7 +9,7 @@ export const Container = styled.div`
   align-items: center;
   position: fixed;
   top: 0;
-`;
+`
 
 export const Header = styled.header`
   width: 950px;
@@ -18,17 +18,17 @@ export const Header = styled.header`
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid rgba(55, 55, 55, 0.8);
-`;
+`
 
 export const Title = styled.h2`
   color: #00d2df;
   @media (max-width: 840px) {
     padding-left: 15px;
   }
-`;
+`
 
 interface OptionsProps {
-  menu?: boolean;
+  menu?: boolean
 }
 
 export const Options = styled.ul<OptionsProps>`
@@ -38,7 +38,7 @@ export const Options = styled.ul<OptionsProps>`
   gap: 30px;
 
   @media (max-width: 840px) {
-    display: ${(props) => (props.menu ? "none" : "block")};
+    display: ${(props) => (props.menu ? 'none' : 'block')};
     position: absolute;
     top: 80px;
     right: 0;
@@ -48,7 +48,7 @@ export const Options = styled.ul<OptionsProps>`
     height: 100vh;
     overflow: hidden;
   }
-`;
+`
 
 export const Option = styled.li`
   font-weight: 500;
@@ -65,7 +65,7 @@ export const Option = styled.li`
     font-size: 20px;
     border-bottom: 1px solid #00d2df;
   }
-`;
+`
 
 export const Link = styled.a`
   text-decoration: none;
@@ -74,7 +74,7 @@ export const Link = styled.a`
   &:hover {
     color: #fff;
   }
-`;
+`
 
 export const ButtonMobile = styled.button`
   display: none;
@@ -87,4 +87,4 @@ export const ButtonMobile = styled.button`
     background: transparent;
     padding-right: 15px;
   }
-`;
+`

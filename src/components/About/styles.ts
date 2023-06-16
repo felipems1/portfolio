@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100%;
@@ -7,7 +7,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-`;
+`
 
 export const About = styled.div`
   width: 800px;
@@ -16,11 +16,11 @@ export const About = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-`;
+`
 
 export const Title = styled.h1`
   color: #fff;
-`;
+`
 
 export const Description = styled.p`
   color: #c4c4c4;
@@ -30,7 +30,7 @@ export const Description = styled.p`
   @media (max-width: 840px) {
     padding: 0 15px;
   }
-`;
+`
 
 export const Social = styled.div`
   display: flex;
@@ -41,7 +41,7 @@ export const Social = styled.div`
     justify-content: center;
     align-items: center;
   }
-`;
+`
 
 export const Contact = styled.div`
   margin-right: 30px;
@@ -54,17 +54,17 @@ export const Contact = styled.div`
     width: 150px;
     margin-bottom: 15px;
   }
-`;
+`
 
 export const Logo = styled.img`
   width: 32px;
   height: 32px;
-`;
+`
 
 export const TitleContact = styled.h3`
   color: #fff;
-`;
+`
 
 export const TitleDescription = styled.p`
   color: #c4c4c4;
-`;
+`

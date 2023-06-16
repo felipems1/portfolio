@@ -1,9 +1,9 @@
-import * as C from "./style";
-import Illustration from "../../assets/illustration.svg";
-import Github from "../../assets/github.svg";
-import Linkedin from "../../assets/linkedin.svg";
+import * as C from './styles'
+import Illustration from '../../assets/illustration.svg'
+import Github from '../../assets/github.svg'
+import Linkedin from '../../assets/linkedin.svg'
 
-const Home = () => {
+export const Home = () => {
   return (
     <C.Container id="home">
       <C.Info>
@@ -23,7 +23,5 @@ const Home = () => {
       </C.Info>
       <C.Image src={Illustration} />
     </C.Container>
-  );
-};
-
-export default Home;
+  )
+}

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100vw;
@@ -7,12 +7,12 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   background-color: #151515;
-`;
+`
 
 export const Title = styled.h1`
   color: #fff;
   text-align: center;
-`;
+`
 
 export const ProjectsArea = styled.div`
   display: flex;
@@ -24,7 +24,7 @@ export const ProjectsArea = styled.div`
   &::-webkit-scrollbar {
     display: none;
   }
-`;
+`
 
 export const SlideButtons = styled.div`
   display: flex;
@@ -41,4 +41,4 @@ export const SlideButtons = styled.div`
     transform: scale(1.2);
     color: #ff1cf7;
   }
-`;
+`

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100%;
@@ -11,18 +11,18 @@ export const Container = styled.div`
   @media (max-width: 428px) {
     padding: 15px;
   }
-`;
+`
 
 export const Skills = styled.div`
   width: 950px;
   display: flex;
   flex-direction: column;
   align-items: center;
-`;
+`
 
 export const Title = styled.h1`
   color: #fff;
-`;
+`
 
 export const MySkills = styled.div`
   display: grid;
@@ -40,7 +40,7 @@ export const MySkills = styled.div`
     justify-content: center;
     gap: 15px;
   }
-`;
+`
 
 export const Skill = styled.div`
   width: 140px;
@@ -55,9 +55,9 @@ export const Skill = styled.div`
   &:hover {
     transform: scale(1.1);
   }
-`;
+`
 
 export const Logo = styled.img`
   width: 70px;
   height: 70px;
-`;
+`

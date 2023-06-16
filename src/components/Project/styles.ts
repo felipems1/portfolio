@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Project = styled.div`
   width: 400px;
@@ -20,25 +20,25 @@ export const Project = styled.div`
     width: 95vw;
     margin: 0 10px;
   }
-`;
+`
 
 export const Image = styled.img`
   width: 100%;
   height: 150px;
-`;
+`
 
 export const TitleProject = styled.h3`
   color: #fff;
-`;
+`
 
 export const DescriptionProject = styled.p`
   color: #c4c4c4;
-`;
+`
 
 export const ButtonsArea = styled.div`
   display: flex;
   gap: 10px;
-`;
+`
 
 export const Button = styled.a`
   text-decoration: none;
@@ -55,10 +55,10 @@ export const Button = styled.a`
   &:hover {
     border: 2px solid #ff1cf7;
   }
-`;
+`
 
 export const Logo = styled.img`
   width: 15px;
   height: 15px;
   margin-right: 5px;
-`;
+`

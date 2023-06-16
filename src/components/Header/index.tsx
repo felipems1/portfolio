@@ -1,19 +1,19 @@
-import { useState } from "react";
-import { navigationLinks } from "../../utils/links";
-import * as C from "./style";
-import { CgMenu } from "react-icons/cg";
-import { AiOutlineClose } from "react-icons/ai";
+import { useState } from 'react'
+import { navigationLinks } from '../../utils/links'
+import * as C from './styles'
+import { CgMenu } from 'react-icons/cg'
+import { AiOutlineClose } from 'react-icons/ai'
 
-const Header = () => {
-  const [menu, setMenu] = useState(true);
+export const Header = () => {
+  const [menu, setMenu] = useState(true)
 
   const menuToggler = () => {
-    menu === false ? setMenu(true) : setMenu(false);
-  };
+    menu === false ? setMenu(true) : setMenu(false)
+  }
 
   const handleMenu = () => {
-    setMenu(true);
-  };
+    setMenu(true)
+  }
 
   return (
     <C.Container>
@@ -37,7 +37,5 @@ const Header = () => {
         </C.Options>
       </C.Header>
     </C.Container>
-  );
-};
-
-export default Header;
+  )
+}

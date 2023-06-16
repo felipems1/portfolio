@@ -1,10 +1,10 @@
-import * as C from "./style";
-import Instagram from "../../assets/instagram.png";
-import Email from "../../assets/mail.png";
-import Phone from "../../assets/phone.png";
-import Smile from "../../assets/smile.png";
+import * as C from './styles'
+import Instagram from '../../assets/instagram.png'
+import Email from '../../assets/mail.png'
+import Phone from '../../assets/phone.png'
+import Smile from '../../assets/smile.png'
 
-const About = () => {
+export const About = () => {
   return (
     <C.Container id="about">
       <C.About>
@@ -44,7 +44,5 @@ const About = () => {
         </C.Social>
       </C.About>
     </C.Container>
-  );
-};
-
-export default About;
+  )
+}

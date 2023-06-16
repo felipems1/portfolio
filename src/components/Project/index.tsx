@@ -1,16 +1,22 @@
-import * as C from "./style";
-import Link from "../../assets/link.svg";
-import Github from "../../assets/github.svg";
+import * as C from './styles'
+import Link from '../../assets/link.svg'
+import Github from '../../assets/github.svg'
 
 interface Props {
-  image: string;
-  title: string;
-  description: string;
-  deploy: string;
-  github: string;
+  image: string
+  title: string
+  description: string
+  deploy: string
+  github: string
 }
 
-const Project = ({ image, title, description, deploy, github }: Props) => {
+export const Project = ({
+  image,
+  title,
+  description,
+  deploy,
+  github,
+}: Props) => {
   return (
     <C.Project>
       <C.Image src={image} />
@@ -27,7 +33,5 @@ const Project = ({ image, title, description, deploy, github }: Props) => {
         </C.Button>
       </C.ButtonsArea>
     </C.Project>
-  );
-};
-
-export default Project;
+  )
+}

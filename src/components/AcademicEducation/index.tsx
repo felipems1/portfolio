@@ -1,9 +1,9 @@
-import * as C from "./style";
+import * as C from './styles'
 
-const Training = () => {
+export const AcademicEducation = () => {
   return (
-    <C.Container id="training">
-      <C.Title>Formação acadêmica</C.Title>
+    <C.Container id="academicEducation">
+      <C.Title>Formação académica</C.Title>
       <C.CoursesArea>
         <C.CourseArea>
           <C.TitleCourse>Sistemas para Internet</C.TitleCourse>
@@ -16,7 +16,5 @@ const Training = () => {
         </C.CourseArea>
       </C.CoursesArea>
     </C.Container>
-  );
-};
-
-export default Training;
+  )
+}

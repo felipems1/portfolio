@@ -1,28 +1,28 @@
-import { useRef } from "react";
-import { BiChevronsLeft, BiChevronsRight } from "react-icons/bi";
-import * as C from "./style";
-import Projeto1 from "../../assets/projeto1.png";
-import Projeto2 from "../../assets/projeto2.png";
-import Projeto3 from "../../assets/projeto3.png";
-import Projeto4 from "../../assets/projeto4.png";
-import Projeto5 from "../../assets/projeto5.png";
-import Projeto6 from "../../assets/projeto6.png";
-import Project from "../Project";
+import { useRef, SyntheticEvent } from 'react'
+import { BiChevronsLeft, BiChevronsRight } from 'react-icons/bi'
+import * as C from './styles'
+import Projeto1 from '../../assets/projeto1.png'
+import Projeto2 from '../../assets/projeto2.png'
+import Projeto3 from '../../assets/projeto3.png'
+import Projeto4 from '../../assets/projeto4.png'
+import Projeto5 from '../../assets/projeto5.png'
+import Projeto6 from '../../assets/projeto6.png'
+import { Project } from '../Project'
 
-const Projects = () => {
-  const carousel = useRef<HTMLDivElement | null>(null);
+export const Projects = () => {
+  const carousel = useRef<HTMLDivElement | null>(null)
 
-  const handleNext = (e: React.SyntheticEvent) => {
-    e.preventDefault();
+  const handleNext = (e: SyntheticEvent) => {
+    e.preventDefault()
 
-    carousel.current!.scrollLeft += carousel.current!.offsetWidth;
-  };
+    carousel.current!.scrollLeft += carousel.current!.offsetWidth
+  }
 
-  const handleBack = (e: React.SyntheticEvent) => {
-    e.preventDefault();
+  const handleBack = (e: SyntheticEvent) => {
+    e.preventDefault()
 
-    carousel.current!.scrollLeft -= carousel.current!.offsetWidth;
-  };
+    carousel.current!.scrollLeft -= carousel.current!.offsetWidth
+  }
 
   return (
     <C.Container id="projects">
@@ -76,7 +76,5 @@ const Projects = () => {
         <BiChevronsRight onClick={handleNext} size={50} />
       </C.SlideButtons>
     </C.Container>
-  );
-};
-
-export default Projects;
+  )
+}

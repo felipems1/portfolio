@@ -1,20 +1,20 @@
-import { Tooltip } from "react-tooltip";
-import * as C from "./style";
+import { Tooltip } from 'react-tooltip'
+import * as C from './styles'
 
-import react from "../../assets/react.png";
-import javascript from "../../assets/javascript.png";
-import typescript from "../../assets/typescript.png";
-import html from "../../assets/html.png";
-import css from "../../assets/css.png";
-import git from "../../assets/git.png";
-import styled from "../../assets/styled.png";
-import redux from "../../assets/redux.png";
-import next from "../../assets/next.png";
-import tailwind from "../../assets/tailwind.png";
-import figma from "../../assets/figma.png";
-import firebase from "../../assets/firebase.png";
+import react from '../../assets/react.png'
+import javascript from '../../assets/javascript.png'
+import typescript from '../../assets/typescript.png'
+import html from '../../assets/html.png'
+import css from '../../assets/css.png'
+import git from '../../assets/git.png'
+import styled from '../../assets/styled.png'
+import redux from '../../assets/redux.png'
+import next from '../../assets/next.png'
+import tailwind from '../../assets/tailwind.png'
+import figma from '../../assets/figma.png'
+import firebase from '../../assets/firebase.png'
 
-const Skills = () => {
+export const Skills = () => {
   return (
     <C.Container id="skills">
       <C.Skills>
@@ -119,7 +119,5 @@ const Skills = () => {
         </C.MySkills>
       </C.Skills>
     </C.Container>
-  );
-};
-
-export default Skills;
+  )
+}

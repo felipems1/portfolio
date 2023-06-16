@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   background-color: #121212;
@@ -18,7 +18,7 @@ export const Container = styled.div`
       opacity: 1;
     }
   }
-`;
+`
 
 export const Info = styled.div`
   margin-left: 100px;
@@ -29,13 +29,13 @@ export const Info = styled.div`
     flex-direction: column;
     padding: 0 15px;
   }
-`;
+`
 
 export const Image = styled.img`
   @media (max-width: 430px) {
     display: none;
   }
-`;
+`
 
 export const Title = styled.h2`
   text-transform: uppercase;
@@ -45,7 +45,7 @@ export const Title = styled.h2`
   @media (max-width: 430px) {
     font-size: 20px;
   }
-`;
+`
 
 export const Description = styled.h1`
   text-transform: uppercase;
@@ -55,7 +55,7 @@ export const Description = styled.h1`
   @media (max-width: 430px) {
     font-size: 40px;
   }
-`;
+`
 
 export const ButtonsArea = styled.div`
   display: flex;
@@ -64,7 +64,7 @@ export const ButtonsArea = styled.div`
   @media (max-width: 430px) {
     justify-content: center;
   }
-`;
+`
 
 export const Button = styled.a`
   text-decoration: none;
@@ -91,9 +91,9 @@ export const Button = styled.a`
   @media (max-width: 390px) {
     padding: 8px 30px;
   }
-`;
+`
 
 export const Logo = styled.img`
   width: 15px;
   margin-right: 10px;
-`;
+`
