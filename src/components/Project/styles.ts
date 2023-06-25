@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Project = styled.div`
   width: 400px;
-  height: 320px;
+  height: 350px;
   background-color: #202020;
   padding: 15px 10px;
   margin: 0 25px;

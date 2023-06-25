@@ -7,7 +7,7 @@ interface Props {
   title: string
   description: string
   deploy: string
-  github: string
+  github?: string
 }
 
 export const Project = ({
@@ -27,10 +27,12 @@ export const Project = ({
           <C.Logo src={Link} alt="Logo Link" />
           Visualizar
         </C.Button>
-        <C.Button href={github} target="_blank">
-          <C.Logo src={Github} alt="Logo Github" />
-          Github
-        </C.Button>
+        {github && (
+          <C.Button href={github} target="_blank">
+            <C.Logo src={Github} alt="Logo Github" />
+            Github
+          </C.Button>
+        )}
       </C.ButtonsArea>
     </C.Project>
   )

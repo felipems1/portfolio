@@ -31,44 +31,43 @@ export const Projects = () => {
         <Project
           image={Projeto1}
           title="Jordan Shoes"
-          description="Tecnologias: ReactJS, TypeScript, Styled-Components, Axios e Redux."
+          description="Um e-commerce fictício de tênis Jordan, que simula a venda de tênis pela internet."
           deploy="https://app-jordan-shoes.netlify.app"
           github="https://github.com/felipems1/react-jordan-shoes"
         />
         <Project
           image={Projeto2}
           title="Sistema de Chamados"
-          description="Tecnologias: ReactJS, JavaScript, CSS, Context API e Firebase"
+          description="Sistema de chamado de atendimento, que permite aos clientes abrir solicitações de suporte, manutenção ou assistência."
           deploy="https://sist-chamados-app.netlify.app"
           github="https://github.com/felipems1/react-sistema-de-chamados"
         />
         <Project
           image={Projeto3}
-          title="Next Flix"
-          description="Tecnologias: NextJS, TypeScript, Tailwind CSS e Axios"
-          deploy="https://next-flix-ten.vercel.app/"
-          github="https://github.com/felipems1/next-flix"
+          title="Projeto Freelance"
+          description="Website de uma oficina de moto."
+          deploy="https://dg-motos.netlify.app/"
         />
         <Project
           image={Projeto4}
           title="Controle Financeiro"
-          description="Tecnologias: ReactJS, TypeScript, CSS e Firebase"
+          description="Plataforma para gerenciamento do controle de receitas e despesas."
           deploy="https://controle-financeiro-app.netlify.app"
-          github="https://github.com/felipems1/react-controle-financeiro"
+          github="https://github.com/felipems1/controle-financeiro"
         />
         <Project
           image={Projeto5}
-          title="Formulário"
-          description="Tecnologias: ReactJS, TypeScript, Styled-Components e Context API"
-          deploy="https://app-formulario.netlify.app"
-          github="https://github.com/felipems1/react-form"
+          title="Next Flix"
+          description="A plataforma Next Flix! permite aos usuários navegar e visualizar uma ampla variedade de filmes, divididos por gêneros."
+          deploy="https://next-flix-ten.vercel.app/"
+          github="https://github.com/felipems1/next-flix"
         />
         <Project
           image={Projeto6}
-          title="HomeYou"
-          description="Tecnologias: ReactJS, TypeScript e Styled-Components"
-          deploy="https://app-homeyou.netlify.app"
-          github="https://github.com/felipems1/react-homeyou"
+          title="Formulário Dev"
+          description="O formulário é projetado para coletar informações do usuário em várias etapas, facilitando o processo e tornando-o mais intuitivo."
+          deploy="https://app-formulario.netlify.app/"
+          github="https://github.com/felipems1/formulario-dev"
         />
       </C.ProjectsArea>
       <C.SlideButtons>
