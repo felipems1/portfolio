@@ -6,7 +6,7 @@ export const Courses = () => {
       <C.Title>Cursos</C.Title>
       <C.CoursesArea>
         <C.CourseOne>
-          <C.TitleCourse>Discover</C.TitleCourse>
+          <C.TitleCourse>Ignite</C.TitleCourse>
           <C.DescriptionCourse>Rocketseat</C.DescriptionCourse>
         </C.CourseOne>
         <C.CourseTwo>
